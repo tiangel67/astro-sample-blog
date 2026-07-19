@@ -1,0 +1,20 @@
+---
+import Navigation from './Navigation.astro';
+import Menu from './Menu.astro';
+---
+
+<style>
+  header {
+    display: flex;
+    gap: 0;
+    margin-top: 2rem;
+  }
+</style>
+
+<header> 
+    <nav>
+      <Menu />
+      <Navigation />
+    </nav>
+    <p>imported from components Header</p>
+</header>
